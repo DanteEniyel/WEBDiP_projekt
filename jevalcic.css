@@ -1,0 +1,528 @@
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #59554D;
+    /*font-weight: bold;*/
+    color: #FFFFFF;
+	height: 100%;
+	
+}	
+
+
+#header{
+	background-image: url("slike/schooln.jpg");
+	padding-bottom: 100pt;
+    padding-top: 10pt;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:30%;
+    margin:0 auto;
+}
+
+
+#container{
+    width: 85%;
+    background-color: #6A8AA6;
+    border: 1pt solid black;
+    margin: 0 auto;
+    position:relative;
+    min-height:100%;
+	padding: 0;
+}
+
+
+
+.sadrzaj{
+	
+    width:70%;
+    margin-top:40pt;
+	margin-right: 100pt;
+    
+    position:absolute;
+    padding: 10pt 20pt 10pt 20pt;
+   
+}
+#content{
+    padding-bottom:20pt;
+	min-height: 90%;
+}
+
+#content2{
+    padding-bottom:20pt;
+	margin: 0 auto;
+	width:50%;
+
+	right:15pt;
+}
+
+#content3{
+    
+	display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:230px;
+    left:400px;
+    right:0;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:80px;
+    margin-left:80px;
+	background-color:#B87D50;
+	border: 1pt solid black;
+	opacity:0.8;
+	overflow:auto;
+}
+
+#natjecaj_d{
+	float:left;
+    width:250pt;
+    margin-top:30pt;
+	background-color:#B87D50;
+	opacity:0.8;
+    border: 1pt solid black;
+    position:absolute;
+    padding: 10pt 20pt 20pt;
+    left:5%;
+    top:30%;
+	overflow:auto; 
+}
+
+
+#dokumentacija{
+	background-color:#B87D50;
+	overflow:auto; 
+	height:520px;
+	width:70%; 
+	text-align: justify;
+	border: 1pt solid #black;
+	width:100%;
+    margin-top:50px;
+	margin-right: 100pt;
+    padding: 10pt 20pt 10pt 20pt;
+	
+}
+
+#poruka{	
+    background-color:#6A8AA6;
+    display:block;
+    font:bold 11px Arial;
+    left:10px;
+    padding:3px;
+    position:fixed;
+    top:0;
+	height:40px;
+    visibility:visible;
+    z-index:10000;
+
+}
+
+#poruka2{	
+    background-color:#6A8AA6;
+    float:left;
+    font:bold 11px Arial;
+    left:10px;
+    padding:3px;
+    position:fixed;
+    top:45px;
+	height:15px;
+    visibility:visible;
+    z-index:10000;
+}
+
+div.link a:link{
+    color: white;
+}
+
+div.index_message {
+	
+	
+    position: apsolute;
+    margin-top: 30pt;
+    margin-left: 15pt;
+	margin-right: 15pt;
+}
+
+div.index_text h1{
+    text-align: center;
+}
+
+div.index_text h3{
+    text-align: center;
+}
+
+IMG.pozdrav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header h1{
+    font-size: 20pt;
+    color: white;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#meni ul{
+    padding: 0;
+    margin:0;
+    background-color:#59554D;
+}
+
+#meni li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 5pt;
+}
+
+#meni li a{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#meni li a:hover{
+    color:#0499BA;
+}
+
+#footer{
+    height:5%;
+    margin-top: 10%;
+    padding: 5pt;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:20pt;  
+    background: #59554D;
+    text-align: center;
+    /*border: 1pt solid black;*/
+}
+
+#footer h5{
+    font-size: x-small;
+    
+}
+
+/*#footer p{
+        text-align: center;
+        margin: 0 auto;
+}*/
+
+
+
+#zivotopis{
+    margin-right: 20pt;
+    text-align:justify;
+    /*text-justify:inter-word;*/
+}
+
+#forma_okvir{
+	float:left;
+	position:relative;
+	left:5%;
+	margin-top:35pt;
+}
+
+img.floatL{
+    float:left;
+    margin: 5pt;
+}
+
+table.forma{
+    width: 60%;
+    margin-top: 20pt;
+    padding: 4pt;
+}
+
+table.forma td{
+    border-bottom: 1pt dotted black;
+}
+
+table.forma input{
+    border: 1pt solid black;
+    background-color: #0368A8;
+    color:white;
+}
+
+table.forma input:hover{
+    border: 1pt solid black;
+    background-color: #04C4D9;
+}
+
+table.forma textarea{
+    border: 1pt solid black;
+    background-color: #0368A8;
+    color:white;
+}
+
+table.forma textarea:hover{
+    background-color: #04C4D9;
+    border: 1pt solid black;
+}
+
+ul.podaci{
+    list-style-type: none;
+    margin-left: 15pt;
+}
+
+.greska {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#A63A37;
+    font-weight:bold;
+}
+
+.greskainput {
+    border: 1pt solid #A63A37;
+}
+
+#forma_okvir2{
+	
+	position:relative;
+	left:5%;
+	margin-top:35pt;
+}
+table.unos{
+    width: 60%;
+    margin-top: 20pt;
+    padding: 4pt;
+}
+
+table.unos td{
+    border-bottom: 1pt dotted black;
+}
+
+table.unos input{
+    border: 1pt solid black;
+    background-color: #0368A8;
+    color:white;
+}
+
+table.unos input:hover{
+    border: 1pt solid black;
+    background-color: #04C4D9;
+}
+
+table.unos textarea{
+    border: 1pt solid black;
+    background-color: #0368A8;
+    color:white;
+}
+
+table.unos textarea:hover{
+    background-color: #04C4D9;
+    border: 1pt solid black;
+}
+
+#login{
+    float:left;
+    width:250pt;
+    margin-top:40pt;
+	background-color:#B87D50;
+	opacity:0.8;
+    border: 1pt solid black;
+    position:absolute;
+    padding: 10pt 20pt 20pt;
+    left:5%;
+    top:30%;
+}
+
+table.lforma{
+	width: 60%;
+    margin-top: 20pt;
+    padding: 4pt;
+	
+}
+
+#uredi{
+	float:left;
+    width:300pt;
+    margin-top:40pt;
+	background-color:#B87D50;
+	opacity:0.8;
+    border: 1pt solid black;
+    position:absolute;
+    padding: 10pt 20pt 20pt;
+    left:5%;
+    top:30%;
+}
+
+#new_pass{
+    float:left;
+    width:250pt;
+    margin-top:40pt;
+	background-color:#B87D50;
+	opacity:0.8;
+    border: 1pt solid black;
+    position:absolute;
+    padding: 10pt 20pt 20pt;
+    left:5%;
+    top:30%;
+}
+
+#korisnici tbody{
+	background-color:#B87D50;
+}
+
+
+#dnevnik tbody{
+	background-color:#B87D50;
+}
+
+#pregled tbody{
+	background-color:#B87D50;
+}
+
+
+.ispunjeno_bojom{
+    background-color: #59554D;
+}
+
+.neispunjeno_bojom{
+    /*	background-color: #0368A8;*/
+    background-color: #2F4959;
+}
+
+.pogresno{
+    background-color: #A63A37;
+}
+
+div.slika{
+    padding: 20pt;	
+    height:auto;
+    width:auto;
+    float:left;
+    position: relative;
+}
+
+div.naziv{
+    text-align:center;
+    font-weight:normal;
+    width:80pt;
+    margin:2pt;
+}
+
+#korisnici tr:hover, #natjecaji tr:hover, #dnevnik tr:hover,#pregled tr:hover{
+    background-color: black;
+}
+
+#korisnici{
+	margin: auto;
+	
+}
+
+
+#kom{
+	position:absolute;
+    top:250pt;
+	left:10pt;
+	
+}
+#natjecaji, #dnevnik, #pregled{
+    margin: auto;
+	
+}
+#tablica_komentari, #tablica_ocjene{
+    margin:auto;
+	border-spacing: 0 1;
+}
+
+#tablica_komentari tr{
+    background-color: #800000 ;
+}
+
+#tablica_ocjene tr{
+    background-color: #200000 ;
+}
+
+#tablica_komentari td, #tablica_ocjene td{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#tablica_komentari td:first-child, #tablica_ocjene td:first-child{
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 6px;
+    padding-left: 5px;
+}
+
+#tablica_komentari td:last-child, #tablica_ocjene td:last-child {
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    border-radius:0 6px 6px 0;
+}
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#tablica_komentari tr:hover{
+    background-color: #E80000 ;
+}
+
+#tablica_ocjene tr:hover{
+    background-color: #E1440E ;
+}
+
+#tablica_komentari tr.gl_kom{
+    background-color: #6633CC ;
+}
+#tablica_komentari tr.gl_kom:hover{
+    background-color: #6600CC ;
+}
+
+
+
+#korisnici th.header  { 
+    background-image: url("tablesorter/bg.png");     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+}
+
+#dnevnik th.header { 
+    background-image: url("tablesorter/bg.png");     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: x-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+}
+
+#pregled th.header { 
+    background-image: url("tablesorter/bg.png");     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: x-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+}
+
+#korisnici th.headerSortUp, #dnevnik th.headerSortUp,  #pregled th.headerSortUp { 
+    background-image: url("tablesorter/asc.png"); 
+    background-color: #3399FF; 
+}
+
+#korisnici th.headerSortDown, #dnevnik th.headerSortDown,  #pregled th.headerSortDown { 
+    background-image: url("tablesorter/desc.png"); 
+    background-color: #3399FF; 
+}
+
+.komentari_i_ocjene{
+	position:absolute;
+}
